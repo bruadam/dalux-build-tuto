@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p /Users/brunoadam/Documents/development/github/dalux-build-tutorial/tutorials *)",
+      "Bash(python3 /private/tmp/claude-501/-Users-brunoadam-Documents-development-github-dalux-build-tutorial/cddcb22d-8e80-40fc-ab71-dab605c5e7bf/scratchpad/build_notebooks.py)",
+      "Bash(/Users/brunoadam/Documents/development/github/dalux-build-tutorial/.venv/bin/python -)",
+      "Bash(/Users/brunoadam/Documents/development/github/dalux-build-tutorial/.venv/bin/python -c \"import nbformat\")",
+      "Bash(/Users/brunoadam/Documents/development/github/dalux-build-tutorial/.venv/bin/pip list *)",
+      "Edit(/.claude/skills/dalux-build/**)"
+    ],
+    "additionalDirectories": [
+      "/Users/brunoadam/Documents/development/github/dalux-build-tutorial/.claude/skills"
+    ]
+  }
+}

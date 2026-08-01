@@ -1,0 +1,19 @@
+[project]
+name = "dalux-build-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dalux-build>=2.0.2",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.2.2",
+    "tabulate>=0.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.2",
+    "nbstripout>=0.9.1",
+]
