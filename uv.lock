@@ -496,7 +496,7 @@ wheels = [
 
 [[package]]
 name = "dalux-build"
-version = "2.0.3"
+version = "2.0.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fastapi" },
@@ -505,9 +505,9 @@ dependencies = [
     { name = "requests" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/9c/b8/d4bda6943a83c9488086776bd9e1cfb96c1515fb7b187d3de02247e96353/dalux_build-2.0.3.tar.gz", hash = "sha256:c8db8b9f295483d62d50edefdeb428397298483e9c25f4964507acaf442275b4", size = 88406, upload-time = "2026-08-02T10:01:44.369Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/25/f6/a8b53d1e53c2123c9e02b69dcb3dcf8747d5d18f234d2f3545d3ed3f1e93/dalux_build-2.0.4.tar.gz", hash = "sha256:74a15b8bb9257766c1835a4c6823dccf817e96098a2cd7eb4d7e2b4dc752c95a", size = 89256, upload-time = "2026-08-02T10:18:10.348Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e9/81/ec771b55c984e78b983b1f19959763bb6d755ec149333289be89b2cca30d/dalux_build-2.0.3-py3-none-any.whl", hash = "sha256:e4e4591dd8439eae117b1287e512b4dceb386a014fe4056a9ecad095b20dbc07", size = 104536, upload-time = "2026-08-02T10:01:43.051Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/ea/a8ffef33e634cac1080d31b695a6b85874c00ea029b5d797f22dd97cfc63/dalux_build-2.0.4-py3-none-any.whl", hash = "sha256:ba0e1da09bea4d03eed69603e19e8f67464eb8b54202366486c9c20c0f049f11", size = 105177, upload-time = "2026-08-02T10:18:09.23Z" },
 ]
 
 [package.optional-dependencies]
@@ -540,7 +540,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "dalux-build", extras = ["webhook"], specifier = ">=2.0.3" },
+    { name = "dalux-build", extras = ["webhook"], specifier = ">=2.0.4" },
     { name = "matplotlib", specifier = ">=3.11.1" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
