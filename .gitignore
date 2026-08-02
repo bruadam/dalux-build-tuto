@@ -9,3 +9,24 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+# Tutorial run artifacts (Hour 4 chart export, Hour 5 monitor state)
+tutorials/*.png
+tutorials/*.sqlite3
+
+# Downloaded files
+*.ifc
+*.dwg
+*.rvt
+*.pdf
+*.csv
+*.xlsx
+*.jpeg
+*.jpg
+*.png
+*.xlsx
+
+downloads/
+download/
+output/
+outputs/

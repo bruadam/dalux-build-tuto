@@ -34,6 +34,8 @@ One notebook per hour, meant to be run in order:
 | [`hour_1_setup_and_projects.ipynb`](tutorials/hour_1_setup_and_projects.ipynb)                     | Credentials, `create_client()`, the `DaluxClient` namespaces, projects/companies/users, error handling                                                      |
 | [`hour_2_files_and_folders.ipynb`](tutorials/hour_2_files_and_folders.ipynb)                       | File areas → folders → files, building a folder tree, downloading (single/bulk/filtered), chunked uploads                                                   |
 | [`hour_3_tasks_forms_and_workpackages.ipynb`](tutorials/hour_3_tasks_forms_and_workpackages.ipynb) | Tasks, task change history, forms, work packages, the other read-only resources, reusable pagination/search utilities, and a capstone project status report |
+| [`hour_4_bonus_graphs.ipynb`](tutorials/hour_4_bonus_graphs.ipynb)                                 | Bonus: charting `to_dataframe=True` results with `matplotlib` — companies, work packages, the Hour 2 folder tree, task status — combined into one dashboard  |
+| [`hour_5_webhook_server.ipynb`](tutorials/hour_5_webhook_server.ipynb)                             | The embedded `dalux.webhook_server` — scheduled change jobs and freshness jobs so you get a callback instead of polling                                      |
 
 ## Claude Code skill
 
